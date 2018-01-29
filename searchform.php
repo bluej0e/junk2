@@ -1,0 +1,2 @@
+<?php/* default search form */?>
+<form class="search-form-main"  role="search" method="get" id="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>"><div class="container-4"><input onfocus="this.placeholder='';" onfocusout="this.placeholder='Search for teams, tournaments, dates, or other';" value="" type="search" placeholder="<?php echo esc_attr( 'Search for teams, tournaments, dates, or other', 'presentation' ); ?>" name="s" id="search" value="<?php echo esc_attr( get_search_query() ); ?>" /><button class="icon"><i class="fa fa-search"></i></button></div></form>
